@@ -1,0 +1,123 @@
+.monsieur-la-doulaise-regular {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-uniquifier{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #DDCECD;
+    color:midnightblue;
+    max-width: 1200px; /* largura max e min */
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+.cabecalho{
+    padding: 10px;
+    padding-left: 18px;
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+.cabecalho-menu-item{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: clamp(0.9rem, 0vw, 10rem);
+    font-style: italic;
+    color: midnightblue;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.cabecalho-menu-btn{
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+    color: midnightblue;
+    border-radius: 0px;
+    font-family: "Tinos", serif;
+    position: relative;
+}
+.cabecalho-menu-item:hover{
+    background-color: midnightblue;
+    color: white;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.conteudo-apr-texto-1{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(0.9rem, 6.5vw, 25rem);
+}
+.conteudo-apr-texto-2{
+    font-family: "Inter", sans-serif;
+    font-style: light;
+    font-weight: 200;
+    font-size: clamp(1.7rem, 1.2vw, 1.6rem);
+    color: rgb(65, 65, 65);
+
+}
+
+.conteudo-img{
+    display: flex;
+    gap: 9px;
+    width: clamp(150px, 30vw, 248px);
+    height: auto;
+    margin-left: 30px;
+    border: 10px solid #EEE5E5;
+    outline: 5px dashed #EEE5E5;
+    /*color: lightslategrey;*/
+    
+}
+
+
