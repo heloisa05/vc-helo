@@ -44,8 +44,8 @@
 }
 
 body{
-    background-color: #DDCECD;
-    color:midnightblue;
+    background-color:white;
+    color: #AA1515;
     max-width: 1200px; /* largura max e min */
     min-width: 300px;
     margin: 0 auto;
@@ -55,6 +55,7 @@ body{
 .cabecalho{
     padding: 10px;
     padding-left: 18px;
+    line-height: 10px;
 }
 .cabecalho-menu{
     display: flex;
@@ -66,7 +67,7 @@ body{
     font-weight: 400;
     font-size: clamp(0.9rem, 0vw, 10rem);
     font-style: italic;
-    color: midnightblue;
+    color: #AA1515;
     cursor: pointer;
     transition: 0.1s;
 }
@@ -74,13 +75,13 @@ body{
     padding: 5px 5px;
     background-color: transparent;
     border: none;
-    color: midnightblue;
+    color: #AA1515;
     border-radius: 0px;
     font-family: "Tinos", serif;
     position: relative;
 }
 .cabecalho-menu-item:hover{
-    background-color: midnightblue;
+    background-color: #AA1515;
     color: white;
 }
 
@@ -114,9 +115,8 @@ body{
     width: clamp(150px, 30vw, 248px);
     height: auto;
     margin-left: 30px;
-    border: 10px solid #EEE5E5;
-    outline: 5px dashed #EEE5E5;
-    /*color: lightslategrey;*/
+    border: 10px solid #AA1515;
+    outline: 5px dashed #AA1515;
     
 }
 
