@@ -1,27 +1,8 @@
-.monsieur-la-doulaise-regular {
-    font-family: "Monsieur La Doulaise", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
 .rouge-script-regular {
   font-family: "Rouge Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
-.inter-uniquifier{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
-
-.tinos-regular {
-    font-family: "Tinos", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
 .tinos-bold {
     font-family: "Tinos", serif;
     font-weight: 700;
@@ -39,7 +20,6 @@
     font-weight: 700;
     font-style: italic;
 }
-  
 
 *{
     margin: 0;
@@ -47,19 +27,18 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 body{
     background-color:white;
-    color: #AA1515;
+    color: black;
     min-width: 300px;  /* largura min */
     margin: 0 auto;
 
 }
-
 header {
   border-bottom: 2px solid #b12020;
   width: 100%;
 }
+
 .cabecalho{
     padding: 10px;
     padding-right: 94px;
@@ -92,58 +71,59 @@ header {
     background-color: #AA1515;
     color: white;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
+body{
+    background-color:white;
+    color: black;
+    min-width: 300px;  /* largura min */
+
+}
+
+header {
+  border-bottom: 2px solid #b12020;
+  width: 100%;
+}
+
+footer{
+  border-top: 2px solid #b12020;
+  width: 100%;
+  padding-top: 5px;
+}
 
 .conteudo{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-    padding: 69px;
-    gap: 115px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    margin: 64px;
 }
-.conteudo-apr {
+.conteudo h1{
+  text-align: center;
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(5.9rem, 0vw, 15rem);
+  color: #AA1515;
+} 
+.imgs {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-  padding: 40px;
-  
-}
-.conteudo-apr-texto-1{
-    font-family: "Rouge Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: clamp(0.9rem, 6.0vw, 25rem);
-    text-align: center;
-}
-.conteudo-apr-texto-2{
-    font-family: "Inter", sans-serif;
-    font-style: light;
-    font-weight: 200;
-    font-size: clamp(1.0rem, 1.2vw, 1.6rem);
-    color: rgb(65, 65, 65);
-    text-align: center;
-}
-
-.conteudo-foto-container{
-  position: relative;
-  width: 100%;
-  max-width: 338px;
-  height: auto;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
-
-
-.conteudo-img{
-  position: relative;
+.conteudo-img {
   width: 100%;
-  border: none;
-}
-
-
-footer{
-    border-bottom: 2px solid #b12020;
-    padding-bottom: 48px; /* opcional, para dar respiro */
+  max-width: 222px; /* Tamanho máximo da imagem */
+  height: auto; /* Mantém proporção */
+  border: 3px solid #990000;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }

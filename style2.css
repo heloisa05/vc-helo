@@ -1,0 +1,178 @@
+.rouge-script-regular {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-uniquifier{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.tinos-bold {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.tinos-regular-italic {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.tinos-bold-italic {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+header {
+  border-bottom: 2px solid #AA1515;
+  width: 100%;
+}
+footer{
+  border-top: 2px solid #b12020;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.cabecalho{
+    padding: 10px;
+    padding-right: 120px;
+    line-height: 10px;
+}
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+.cabecalho-menu-item{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-size: clamp(0.9rem, 0vw, 10rem);
+    font-style: italic;
+    text-decoration: none;
+    color: #AA1515;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.cabecalho-menu-btn{
+    padding: 5px 5px;
+    background-color: transparent;
+    border: none;
+    color: #AA1515;
+    border-radius: 0px;
+    font-family: "Tinos", serif;
+    position: relative;
+}
+.cabecalho-menu-item:hover{
+    background-color: #AA1515;
+    color: white;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: white;
+}
+.cont-container{
+  height: 88vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cont-esquerdo{
+  display: flex;
+  align-items:center ;
+  flex-direction: column;
+  background-color: #AA1515;
+  border-radius: 31px;
+  width: 440px;
+  height: 426px;
+}
+.cont-esquerdo-titulo h1{
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fdfcfb;
+  font-size: 60px;
+  margin-top: 5px;
+}
+.cont-esquerdo-titulo hr{
+  border: none;
+  width: 120px;
+  height: 4px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.cont-esquerdo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* deixa os inputs ocuparem toda a largura */
+}
+.cont-inputs{
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 400;
+  color: #666;
+  border-radius: 51px;
+  margin: 10px;
+}
+
+.cont-esquerdo textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.cont-inputs:focus{
+  border: 2px solid #AA1515;
+}
+.cont-inputs::placeholder{
+  color: #a9a9a9;
+}
+.cont-esquerdo button{
+  display: flex;
+  align-items:end;
+  padding: 10px 30px;
+  font-size: 16px;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  cursor: pointer;
+  color: #AA1515;
+  outline: none;
+}
+
+.conteudo-foto-container{
+  position: relative;
+  width: 100%;
+  max-width: 398px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.conteudo-img{
+  position: relative;
+  width: 100%;
+  border: none;
+}
